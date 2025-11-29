@@ -1,0 +1,26 @@
+3. Reflection on Prompt Iteration / Debugging
+
+During development of the automation prompt, the following improvements were made:
+
+1) Initial Issue:
+The model sometimes summarized too briefly or added imaginary details.
+
+Fix:
+Added rules:
+   -“Do not add details not present in the input.”
+   -“Summary must be 3–5 lines.”
+
+
+2) Initial Issue:
+JSON output was inconsistent when data was missing.
+
+Fix:
+Added rule:
+   -“If data is missing, return null in the JSON.”
+
+
+3)Initial Issue:
+The prompt needed to work for many formats (paragraphs, notes, bullet points).
+
+Fix:
+Created a universal output format (Summary → Key Points → JSON).
