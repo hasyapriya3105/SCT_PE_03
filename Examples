@@ -1,0 +1,75 @@
+2. Input–Output Examples (3 Required Examples)
+
+*Example 1*
+Input:
+“Artificial Intelligence is transforming industries by automating repetitive tasks, improving decision-making, and enabling predictive analytics. Companies are adopting AI to increase efficiency and reduce operational costs.”
+
+Output:
+
+1. Summary:
+AI is reshaping industries by automating routine tasks, enhancing decisions, and providing predictive insights. Businesses use AI to boost productivity and reduce costs.
+
+2. Key Points:
+   -Automates repetitive tasks
+   -Improves decision-making
+   -Enables predictive analytics
+   -Helps reduce operational costs
+
+3. Structured Data (JSON):
+{
+  "topic": "Artificial Intelligence",
+  "benefits": [
+    "Automation of tasks",
+    "Improved decision-making",
+    "Predictive analytics"
+  ],
+  "industry_impact": "Increases efficiency and reduces operational costs"
+}
+
+*Example 2*
+Input:
+“Python is widely used for data science because of its rich libraries such as NumPy, Pandas, and Matplotlib. It is also beginner-friendly, making it popular among new programmers.”
+
+Output:
+
+1. Summary:
+Python is a top choice for data science due to its powerful libraries and user-friendly nature. It is also preferred by beginners.
+
+2. Key Points:
+   -Used in data science
+   -Libraries: NumPy, Pandas, Matplotlib
+   -Beginner-friendly
+   -Popular among new programmers
+
+3. Structured Data (JSON):
+{
+  "topic": "Python Programming",
+  "libraries": ["NumPy", "Pandas", "Matplotlib"],
+  "advantages": ["Beginner-friendly", "Popular for data science"]
+}
+
+
+*Example 3*
+Input:
+“The seminar will be held on 12th March 2025 at Bangalore Tech Park. Speakers include Dr. Meera Sharma and Prof. Arjun Das. Registration closes on 5th March.”
+
+Output:
+
+1. Summary:
+A seminar is scheduled for 12 March 2025 at Bangalore Tech Park with two speakers. Registration ends on 5 March.
+
+2. Key Points:
+   -Event Date: 12 March 2025
+   -Venue: Bangalore Tech Park
+   -Speakers: Dr. Meera Sharma, Prof. Arjun Das
+   -Registration deadline: 5 March
+
+3. Structured Data (JSON):
+{
+  "event": "Seminar",
+  "date": "12-03-2025",
+  "venue": "Bangalore Tech Park",
+  "speakers": ["Dr. Meera Sharma", "Prof. Arjun Das"],
+  "registration_deadline": "05-03-2025"
+}
+
